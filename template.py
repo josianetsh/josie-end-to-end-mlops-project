@@ -50,8 +50,3 @@ for file_path in list_of_files:
             logging.info(f"Creating empty directory: {filepath}")
     else:
         logging.info(f'{filename} already exist')
-
-    
-
-
-
