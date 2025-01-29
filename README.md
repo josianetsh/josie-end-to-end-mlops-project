@@ -21,7 +21,7 @@
 Clone the repository
 
 ```bash
-https://github.com/someshnaman/End_to_end_MLOPS_project
+https://github.com/josianetsh/josie-end-to-end-mlops-project.git
 ```
 ### STEP 01- Create a conda environment after opening the repository
 
@@ -63,20 +63,20 @@ open up you local host and port
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow \
-MLFLOW_TRACKING_USERNAME=someshnaman \
-MLFLOW_TRACKING_PASSWORD=6e7e6b4e21fb207c4cbf0d4d7f20506e23e748cc \
+MLFLOW_TRACKING_URI="https://dagshub.com/josianetsh/josie-end-to-end-mlops-project.mlflow" \
+MLFLOW_TRACKING_USERNAME=josianetsh \
+MLFLOW_TRACKING_PASSWORD="" \
 python script.py
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/someshnaman/End_to_end_MLOPS_project.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/josianetsh/josie-end-to-end-mlops-project.mlflow\
 
-export MLFLOW_TRACKING_USERNAME=someshnaman 
+export MLFLOW_TRACKING_USERNAME=josianetsh
 
-export MLFLOW_TRACKING_PASSWORD=6e7e6b4e21fb207c4cbf0d4d7f20506e23e748cc
+export MLFLOW_TRACKING_PASSWORD=
 
 ```
 # AWS-CICD-Deployment-with-Github-Actions
