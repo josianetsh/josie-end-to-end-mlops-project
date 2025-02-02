@@ -18,11 +18,11 @@ data_transformation:
   data_path: artifacts/data_ingestion/winequality-red.csv
 
 
+
 hyperparameter:
   root_dir: artifacts/hyperparameter
-  data_path: artifacts/data_transformation/train.csv
-  model_name: model.joblib
-  parameters: aartifacts/hyperparameter/parameters.json
+  data_path: artifacts/data_ingestion/winequality-red.csv
+
 
 model_trainer:
   root_dir: artifacts/model_trainer
